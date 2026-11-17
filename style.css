@@ -1,0 +1,479 @@
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kanit-extrabold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.kanit-black {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.kanit-thin-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.kanit-extralight-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.kanit-light-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.kanit-regular-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.kanit-medium-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.kanit-semibold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.kanit-bold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kanit-extrabold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.kanit-black-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+body{
+    background : url("./img/wallpaper/sangonomiya-kokomi-genshin-impact-4k-wallpaper-uhdpaper.com-733@5@d.jpg");
+    background-size:cover;
+    display:grid;
+    color: rgb(50, 16, 187);
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+    
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+    background-color: rgb(50, 16, 187);
+    padding: 15px;
+    border-radius: 30px;
+    margin: 30px;
+    font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    
+}
+
+.bang {
+    font-weight: normal;
+}
+
+.aboutme{
+    text-align: left;
+    
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+    
+}
+
+
+.header{
+    background-color: rgba(240, 248, 255, 0.519);
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 10px 10px;
+    
+}
+.navbar{
+    
+    bottom: 24px;
+    gap :10px;
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    
+}
+h1 {
+    background-color: rgba(240, 248, 255, 0.519);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    border-radius: 30px;
+    font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#h1-about {
+        background-color: rgba(240, 248, 255, 0.519);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        box-shadow: 10px 10px;
+        margin-right:550px;
+        margin-left: 550px;
+        align-items: center;
+        border-radius: 30px;
+    }
+.shadow{
+    box-shadow: 10px 10px;
+}
+.contact {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 60px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#github:hover , #instagram:hover {
+    background-color: rgb(251, 251, 251);
+    scale: 1.1;
+    transition: ease-in-out 0.1s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#github , #instagram {
+    background-color: rgb(251, 251, 251);
+    size: 80px;
+    border-radius: 50px;
+}
+#mail{
+    
+    size: 100px;
+}
+#mail:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: ease-in-out 0.3s;
+    
+
+}
+h2{ 
+    font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;}
+h3{
+font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+span{
+    font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mygame,.myfolio,.myanime{
+    display: inline-flex;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.mygame:hover, .myfolio:hover ,.myanime:hover {
+    scale: 1.1;
+    transition: ease-in-out 0.1s;
+    cursor: pointer;
+}
+.toplayer-anime {
+  position-anchor: inherit;
+  background-color: aliceblue;
+}
+.myanime , .mygame{
+    
+    color:aliceblue;
+    background-color: rgb(50, 16, 187);
+    padding: 15px;
+    border-radius: 30px;
+    margin: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.folio{
+    background-color: rgba(240, 248, 255, 0.519);
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 10px 10px;
+    margin-top:40px;
+    
+
+}
+#h1butedit{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#mypf {
+  border-radius: 20px;
+  box-shadow: 5px 10px;
+}
+.bottomm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content:left;
+
+
+}
+#jaisai{
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+#back{
+  margin:auto;
+  display: flex;
+  margin-right: 1200px;
+  margin-top:50px;
+}
+#back:hover {
+  scale: 1.2;
+  transition: ease-in-out 0.1s;
+
+}
+
+#my-dialog-games, #my-dialog-anime{
+  background-color: rgba(240, 248, 255, 0.922);
+  border-radius: 20px;
+  border: 0ch;
+  color:rgb(50, 16, 187);
+      font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  max-width:fit-content;
+  margin-top:40px
+  
+}
+.table-wrap {
+  max-height: 75vh; 
+  overflow-y: auto; 
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+.anime-table {
+  width: 100%;
+  border-collapse: collapse; 
+  text-align: left;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  color: rgb(50, 16, 187);
+}
+.anime-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #7cbaf9;
+  color: rgb(50, 16, 187);
+  font-weight: 600;
+  padding: 12px 16px;
+  border-bottom: 2px solid #d3c3ff;
+  z-index: 1;
+}
+.anime-table tbody td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #a695ffb4;
+  vertical-align: middle; 
+}
+.anime-table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.anime-table tbody tr:hover {
+  background-color: #d1dfedaf;
+}
+.anime-table tbody td:first-child img {
+  width: 48px;
+  height: 80px;
+  object-fit: cover; 
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0 2px 4px rgb(50, 16, 187);
+}
+.anime-table tbody td:nth-child(2) {
+  font-weight: 600;
+  color: rgb(50, 16, 187);
+}
+.anime-table th:nth-child(4),
+.anime-table td:nth-child(4),
+.anime-table th:nth-child(5),
+.anime-table td:nth-child(5) {
+  text-align: center;
+}
+
+dialog#my-dialog-games ,dialog#my-dialog-anime {
+  border: none;
+  border-radius: 12px;
+  padding: 20px 24px;
+  width: 90%;
+  max-width: 850px;
+
+}
+dialog#my-dialog-games::backdrop ,dialog#my-dialog-anime::backdrop{
+  backdrop-filter: blur(4px);
+} 
+
+.close-btn {
+  
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; 
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  background-color: rgb(50, 16, 187);
+}
+.game-table tbody td:first-child img {
+  width: 140px;
+  height: 80px;
+  object-fit: cover; 
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0 2px 4px rgb(50, 16, 187);
+}
+
+.game-table {
+  width: 100%;
+  border-collapse: collapse; 
+  text-align: left;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  color: rgb(50, 16, 187);
+}
+.game-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #7cbaf9;
+  color: rgb(50, 16, 187);
+  font-weight: 600;
+  padding: 12px 16px;
+  border-bottom: 2px solid #d3c3ff;
+  z-index: 1;
+}
+.game-table tbody td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #a695ffb4;
+  vertical-align: middle; 
+}
+.game-table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.game-table tbody tr:hover {
+  background-color: #d1dfedaf;
+}
+
+.game-table tbody td:nth-child(2) {
+  font-weight: 600;
+  color: rgb(50, 16, 187);
+}
+.game-table th:nth-child(4),
+.game-table td:nth-child(4),
+.game-table th:nth-child(5),
+.game-table td:nth-child(5) {
+  text-align: center;
+}

@@ -3,22 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="header">
-        <div class="data">
-            <h1>My Portfolio</h1>
-            <h2>Name | <span class="bang">Chavaphon Boonchan</span></h2>
-        </div>
-        <div class="image">
-            <img src="">
+    <h1 id="h1-about">About Me!</h1>
+    <br id="aboutme">
+    <section class="header" >
+        
+        <div class="flex">
+            <div class="aboutme" >
+            
+            <div class="data">
+                <h2>Name | <span class="bang">Chavaphon Boonchan</span></h2>
+                <h2>Nickname | <span class="bang">Nine</span></h2>
+                <h2>Age | <span class="bang">17 YearsOld</span></h2>
+                
+                <div class="contact">
+                    <img src="/img/github/github.png" alt="github" id="github" height="50px"">
+                    <img src="/img/instagram/Instagram_icon-removebg-preview.png" alt="instagram" id="instagram" height="50px">
+                    <img src="./img/mail/mail.png" alt="mail" id="mail" height="45px" >
+                </div>
+            </div>
+            
+            </div>
+            <div class="song">
+            <iframe class="shadow" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3hEfpBHxgieRLz4t3kLNEg?utm_source=generator&si=4fecec55c97844cc" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
         </div>
 
+        <dialog id="my-dialog-anime">
+        <header class="modal-header">
+        <button onclick="this.closest('dialog').close()" class="close-btn">✕</button>
+        <h1>My Anime</h1>
+        </header>
+            
+            <div class="table-wrap">
+            <table class="anime-table" >
+            <thead>
+            <tr>
+            <th>Cover</th>
+            <th>Title</th>
+            <th>Type</th>
+            <th>Episodes</th>
+            <th>Year</th>
+            <th>Studio</th>
+            </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+            </table>
+            </div>
+            
+
+            
+        </dialog>
+        <dialog id="my-dialog-games">
+        <header class="modal-header">
+        <button onclick="this.closest('dialog').close()" class="close-btn">✕</button>
+        <h1>My Games</h1>
+        </header>
+            
+            <div class="table-wrap">
+            <table class="game-table" >
+            <thead>
+            <tr>
+            <th>Img</th>
+            <th>Name</th>
+            <th>Supported Systems</th>
+            <th>Developer</th>
+            </tr>
+            </thead>
+            <tbody id="rowsofgame"></tbody>
+            </table>
+            </div>
+            
+
+            
+        </dialog>
         
+        <div class="navbar">
+        <a href="./folio.html" class="myfolio"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase-business preview-icon"><path d="M12 12h.01"/><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M22 13a18.15 18.15 0 0 1-20 0"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>Portfolio</a>
+        
+
+
+        <button id="myanime" class="myanime" onclick="document.getElementById('my-dialog-anime').showModal()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clapperboard preview-icon"><path d="m12.296 3.464 3.02 3.956"/><path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3z"/><path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="m6.18 5.276 3.1 3.899"/></svg>MyAnime</button>
+        <button id="mygame" class="mygame" onclick="document.getElementById('my-dialog-games').showModal()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2 preview-icon"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg>MyGame</button>
+
+        
+        
+    </div>
     </section>
     
+
     <script src="script.js"></script>
+    <script src="anime.js"></script>
+    <script src="game.js"></script>
+    
 </body>
 </html>

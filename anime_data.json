@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Made in Abyss",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97986-TQ7dCgbS3y5s.jpg",
+    "type": "TV",
+    "episodes": 13,
+    "year": 2017,
+    "studio": "Kinema Citrus"
+  },
+  {
+    "title": "ONE PIECE",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+    "type": "TV",
+    "episodes": 1180,
+    "year": 1999,
+    "studio": "Toei Animation"
+  },
+  {
+    "title": "Kusuriya no Hitorigoto 3rd Season",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195516-MJpUZlOberqH.jpg",
+    "type": "TV",
+    "episodes": 12,
+    "year": 2026,
+    "studio": "OLM"
+  }
+]

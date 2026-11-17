@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Hollow Knight: Silksong",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736",
+    "system": ["Windows","macOS","Linux"],
+    "dev": ["Team Cherry"]
+  },
+    {
+    "name": "Clair Obscur: Expedition 33",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1903340/be3305b02d4db0dffa3458537118423bf2792d7e/header.jpg?t=1793903997",
+    "system": ["Windows"],
+    "dev": ["Sandfall Interactive"]
+  },
+    {
+    "name": "Resident Evil Village",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1776927117",
+    "system": ["Windows"],
+    "dev": ["CAPCOM Co., Ltd."]
+  },
+    {
+    "name": "Genshin Impact",
+    "image": "https://fastcdn.hoyoverse.com/content-v2/plat/124031/5d2ba4371115d26de4c574b28311aed8_3908500551050520494.jpeg",
+    "system": ["Windows"],
+    "dev": ["miHoYo","Shanghai Miha Touring Film Technology Co., Ltd."]
+  }
+
+]
